@@ -231,9 +231,11 @@ Structural patterns form relationships between objects (Adapter for compatibilit
 
 Behavioral patterns define communication (Observer for events, Command for actions).
 
-Summary Table
-Pattern	            Category	     Purpose	
-Singleton	        Creational	    Single instance globally accessible	
-Factory Method	    Creational	    Define interface for object creation	
-Adapter	            Structural	    Allow  incompatible interfaces to work	
-Observer	        Behavioral	    One-to-many notification	
+🔹 Summary of Design Patterns
+Singleton (Creational): Ensures that a class has only one instance and provides a global point of access to it. It is commonly used for configurations, logging, or shared resources.
+
+Factory Method (Creational): Defines an interface for creating objects, but lets subclasses alter the type of objects that will be created. This pattern promotes loose coupling and enhances scalability.
+
+Adapter (Structural): Allows objects with incompatible interfaces to collaborate by converting one interface into another that the client expects. Useful when integrating legacy or third-party code.
+
+Observer (Behavioral): Establishes a one-to-many relationship between objects. When one object changes state, all its dependents are notified and updated automatically. Widely used in event handling systems.
