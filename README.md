@@ -219,8 +219,8 @@ public class Subject
     {
         foreach (var observer in _observers)
             observer.Update(message);
-    }
-}
+    }}
+
 Architecture Diagram - How Patterns Fit Together
 Here is a high-level architecture flow showing how different design patterns support a scalable, maintainable system:
 
