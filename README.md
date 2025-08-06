@@ -231,9 +231,9 @@ Structural patterns form relationships between objects (Adapter for compatibilit
 
 Behavioral patterns define communication (Observer for events, Command for actions).
 
-Summary Table for Your README
-Pattern	Category	Purpose	UML Diagram Link
-Singleton	Creational	Single instance globally accessible	
-Factory Method	Creational	Define interface for object creation	
-Adapter	Structural	Allow incompatible interfaces to work	
-Observer	Behavioral	One-to-many notification	
+Summary Table
+Pattern	            Category	     Purpose	
+Singleton	        Creational	    Single instance globally accessible	
+Factory Method	    Creational	    Define interface for object creation	
+Adapter	            Structural	    Allow  incompatible interfaces to work	
+Observer	        Behavioral	    One-to-many notification	
