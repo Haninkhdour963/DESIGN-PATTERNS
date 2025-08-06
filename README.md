@@ -1,5 +1,6 @@
 # DESIGN-PATTERNS
 THE CATALOG OF DESIGN PATTERNS
+
 01 - DEFINITION OF DESIGN PATTERNS
 Design Patterns in software engineering are standardized reusable solutions to common problems faced during software design. Instead of reinventing solutions for recurring design issues, patterns provide templates or blueprints that can be adapted for specific problems.
 
