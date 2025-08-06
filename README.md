@@ -173,8 +173,8 @@ public class Adapter : ITarget
     public void Request()
     {
         _adaptee.SpecificRequest();
-    }
-}
+    }}
+
 3. Behavioral Patterns
 Observer Pattern
 Defines a one-to-many dependency so that when one object changes state, all its dependents are notified.
